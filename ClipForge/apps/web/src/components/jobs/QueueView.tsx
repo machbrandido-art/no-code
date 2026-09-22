@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { PlayCircle, PauseCircle, XCircle, CheckCircle2, Clock, MoreVertical } from 'lucide-react';
 import { useJobs } from '@/store/JobContext';
 import { PlatformIcon } from '../platforms/PlatformIcon';
