@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { History, Clock, CheckCircle2, XCircle, MoreVertical, Trash2 } from 'lucide-react';
 import { useJobs } from '@/store/JobContext';
 import { PlatformIcon } from '../platforms/PlatformIcon';
-import { Job, JobStatus, Platform } from '@/types';
+import { JobStatus, Platform } from '@/types';
 
 export function HistoryView() {
   const { jobs, removeJob } = useJobs();
