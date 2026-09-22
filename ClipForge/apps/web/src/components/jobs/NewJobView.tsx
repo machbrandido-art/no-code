@@ -6,7 +6,6 @@ import {
   Sparkles, 
   Scissors,
   EyeOff,
-  Settings2,
   PlayCircle,
   Clock,
   Plus
