@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { PlayCircle, XCircle, CheckCircle2, Clock, MoreVertical } from 'lucide-react';
+import { PlayCircle, XCircle, Clock, MoreVertical } from 'lucide-react';
 import { useJobs } from '@/store/JobContext';
 import { PlatformIcon } from '../platforms/PlatformIcon';
 import { Job, JobStatus, Platform } from '@/types';
