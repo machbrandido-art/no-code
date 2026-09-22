@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Settings as SettingsIcon, Save, Undo, FolderOpen, Cpu, Palette, Trash2 } from 'lucide-react';
+import { Settings as SettingsIcon, Save, Undo, FolderOpen, Trash2 } from 'lucide-react';
 import { useSettings } from '@/store/SettingsContext';
 import { Platform, ContentType, AspectRatio } from '@/types';
 

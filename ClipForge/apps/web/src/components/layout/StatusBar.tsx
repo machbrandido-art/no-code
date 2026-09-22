@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Wifi, Clock, CheckCircle2, XCircle, AlertTriangle } from 'lucide-react';
+import { Wifi, Clock } from 'lucide-react';
 
 export function StatusBar() {
   const [time, setTime] = useState(new Date());
