@@ -8,7 +8,8 @@ import {
   EyeOff,
   PlayCircle,
   Clock,
-  Plus
+  Plus,
+  Loader2
 } from 'lucide-react';
 import { PlatformIcon } from '../platforms/PlatformIcon';
 import { Platform, ContentType, AspectRatio, JobStatus } from '@/types';
